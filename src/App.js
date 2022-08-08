@@ -13,11 +13,13 @@ function App() {
   let mappedCards = data.map(card => {
 
     return (
+
        <Card 
        key={card.id}
        img={card.image}
        title={card.title}
        text={card.text}
+       num={card.luckyNum}
        />
     )
 
