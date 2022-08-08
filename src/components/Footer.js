@@ -14,4 +14,3 @@ export default function Footer() {
     </div>
   );
 }
-// src\components\Footer.js
